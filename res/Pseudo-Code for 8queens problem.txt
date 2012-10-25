@@ -1,0 +1,32 @@
+Pseudo code for solving 8 queens problem using backtracking
+
+
+SolveQueens (Integer boardSize, Queen queen[boardSize]);
+
+i <- 0			//Begin by placing the queen number 0
+while i < boardSize
+	queen[i].row <- queen[i].row + 1	//Place queen[i] to next row
+	
+	/* If queen[i] exceeds the row count, reset the queen and 
+		re-place queen[i-1]
+	/*
+
+	if(queen[i].row >= boardSize)
+		queen[i] <- -1;
+		i <- i - 1;
+	else
+		//While the queen[i] is under attack move it down the row
+		while(isUnderAttack(queen[i])
+			queen[i].row <- queen[i] + 1;
+
+		//if queen[i] exceeds the row count, reset it, re-place queen[i-1]
+		if(queen[i].row >= boardSize)
+			queen[i].row <- -1
+			i <- i - 1;
+		else
+			i++;
+end while
+		
+		
+		
+		

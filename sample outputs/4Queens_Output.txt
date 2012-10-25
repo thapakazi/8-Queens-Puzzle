@@ -1,0 +1,17 @@
+******* 4 Queen Puzzle**********
+
+	 	 	  1solution found 
+* Q * * 
+* * * Q 
+Q * * * 
+* * Q * 
+	 	 	  2solution found 
+* * Q * 
+Q * * * 
+* * * Q 
+* Q * * 
+
+
+Time elapsed: 0.000000 secs
+ 
+total solutions are 2
